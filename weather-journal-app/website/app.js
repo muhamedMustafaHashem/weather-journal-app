@@ -5,7 +5,7 @@ let d = new Date();
 let newDate = d.getMonth() + 1 + "." + d.getDate() + "." + d.getFullYear();
 
 //personal api key
-const apiKey = "&appid=d737fc00d9a006fc03263a2ea75da96d";
+const apiKey = "&appid=d737fc00d9a006fc03263a2ea75da96d&units=imperial";
 const baseUrl = "http://api.openweathermap.org/data/2.5/weather?zip=";
 
 // Event listener to add function to existing HTML DOM element
